@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>headphones!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+		<div class="header">
+			<div class="marq"><marquee>Headphone on Sale!</marquee></div>
+			<div class="marq1"><marquee>50% Discount</marquee></div>
+		</div>
+		<div class="sony">
+		Sony
+		</div>
+		<div class="sony-des">
+			High-end feel, high-end price
+		</div>
+	<div class="images">
+<img id="headphn" src="1.jpg" style="height: 400px; width: 500px;">
+<br>
+<div class="btn">
+<button onclick="Hp(0)" class="br">Brown</button>
+<button onclick="Hp(1)" class="re">Red</button>
+<button onclick="Hp(2)" class="gr">Gray</button>
+<button onclick="Hp(3)" class="wh">White</button>
+</div>
+</div>
+<div class="ganga">
+	By: Ganga Khadaka
+</div>
+</div>
+
+<script>
+		function Hp(value){
+			var pic;
+			if(value == 0){
+				pic="1.jpg";
+			}else if(value == 1){
+				pic="3.jpg";
+			}else if(value == 2){
+				pic="4.jpg";
+			}else{
+				pic="5.jpg";
+			}
+			document.getElementById("headphn").src=pic;
+		}
+	</script>
+</body>
+</html>

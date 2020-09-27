@@ -1,0 +1,84 @@
+#headphn{
+	height: 200px;
+	width: 200px;
+}
+.container{
+	height: 600px;
+	width: 70%;
+	margin-left: 15%;
+	position: relative;
+}
+.header{
+	height: 50px;
+	width: 100%;
+	background-color: #c9de1940;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	display: flex;
+	flex-direction: row;
+
+}
+.marq{
+	height: 50px;
+	width: 30%;
+	margin-left: 35%;
+	color: #2f53b7fc;
+}
+.marq1{
+	height: 50px;
+	width: 20%;
+	margin-left: 30%;
+}
+
+.sony{
+	height: 60px;
+	width: 100%;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Monoton', cursive;
+}
+.images{
+	height: 400px;
+	width: 500px;
+	margin-left: 20%;
+	 box-shadow: 5px 5px 5px  #88888859;
+
+}
+
+.btn{
+	top:-40px;
+	position: relative;
+	margin-left: 150px;
+}
+button{
+	border-radius: 5px;
+	border-width: 0px;
+}
+.sony-des{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.br{
+	background-color: brown;
+}
+.re{
+	background-color: red;
+}
+.gr{
+	background-color: gray;
+}
+.wh{
+	background-color: white;
+}
+
+.ganga{
+	height: 30px;
+	width: 100%;
+	margin-top: 20px;
+	box-shadow: 10px 10px 10px  #88888859;
+	font-size: 20px;
+	font-weight: bold;
+}
